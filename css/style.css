@@ -1,0 +1,202 @@
+
+#main{
+	height:700px;
+	width:100%;
+}
+#header{
+	height:50px;
+	width:100%;
+	background-color:#8676c4;
+	display:inline-block;
+}
+#header1 {
+	height:20px;
+	width:20%;
+	float:left;
+	color:white;
+	font-size:20px;
+	font-family:Rockwell;
+	margin-top:15px;
+	margin-left:40px;
+}
+#header2 {
+	height:20px;
+	width:20%;
+	float:left;
+	color:white;
+	font-size:35px;
+	margin-top:5px;
+	text-align:center;
+	margin-left:250px;
+	font-family:calibri;
+}
+
+#header input{
+	height:30px;
+	width:7%;
+	margin-top:10px;
+	float:right;
+	margin-right:35px;
+	background-color:Red;
+	color:white;
+	font-size:15px;
+	border-radius:20px;
+}
+#header input:hover{
+	background-color:white;
+	color:black;
+	font-size:15px;
+}
+#parent{
+	height:600px;
+	width:100%;
+}
+#left{
+	height:500px;
+	width:20%;
+	float:left;
+	box-shadow:2px 2px 5px lightgrey;
+}
+#right{
+	height:600px;
+	width:80%;
+	float:right;
+}
+#leftup{
+	height:300px;
+	width:100%;
+	background-color:lightgrey;
+	text-align:center;
+	color:black;
+}
+#leftdown{
+	height:400px;
+	width:100%;
+	background-color:#a1a6a1;
+}
+#profile{
+	height:150px;
+	width:150px;
+	background-image:url("../images/boy.png");
+	background-size:cover;
+	margin-left:20%;
+	
+}
+#leftup h1{
+	font-size:30px;
+	font-family:Consolas;
+	
+}
+#leftup p{
+
+	font-size:20px;
+	font-family:Consolas;
+	
+}
+
+
+.menu{
+	background-color:#a1a6a1;
+	Height:29.5px;
+	width:92%;
+	color:black;
+	font-size:25px;
+	padding:10px;
+	border:1px solid lightgrey;;	
+}
+.menu a{
+	text-decoration:none;
+	color:black;
+	margin-left:15px;
+	font-family:Consolas;
+}
+.menu:hover{
+	background-color:#8676c4;
+	color:white;
+}
+
+.box{
+	height:45%;
+	width:25%;
+	margin-top:2%;
+	margin-left:6%;
+	border: 1px solid white;
+	display:inline-block;
+	font-family:Bahnschrift;
+	background-color:white;
+	border-radius:10%;
+	box-shadow:10px 10px 30px #8676c4;
+	text-align:center;
+}
+#os{
+	height:25%;
+	width:25%;
+	box-shadow:5px 5px 10px #8676c4;
+	margin:5% auto;
+	border-radius:50%;
+	background-image:url("../images/os.png");
+	background-size:cover;
+	
+}
+
+.box p{
+	margin-top:20px;
+	font-size:40px;
+	color:black;
+	font-family:Rockwell;
+}
+
+#dbms{
+	height:25%;
+	width:25%;
+	box-shadow:5px 5px 10px #8676c4;
+	margin:5% auto;
+	border-radius:50%;
+	background-image:url("../images/dbms.png");
+	background-size:cover;
+	
+}
+#ml{
+	height:25%;
+	width:25%;
+	box-shadow:5px 5px 10px #8676c4;
+	margin:5% auto;
+	border-radius:50%;
+	background-image:url("../images/ml.png");
+	background-size:cover;
+	
+}
+#python{
+	height:25%;
+	width:25%;
+	box-shadow:5px 5px 10px #8676c4;
+	margin:5% auto;
+	border-radius:50%;
+	background-image:url("../images/python.png");
+	background-size:cover;
+	
+}
+#c{
+	height:25%;
+	width:25%;
+	box-shadow:5px 5px 10px #8676c4;
+	margin:5% auto;
+	border-radius:50%;
+	background-image:url("../images/c.png");
+	background-size:cover;
+	
+}
+#java{
+	height:25%;
+	width:25%;
+	box-shadow:5px 5px 10px #8676c4;
+	margin:5% auto;
+	border-radius:50%;
+	background-image:url("../images/java.png");
+	background-size:cover;
+	
+}
+
+.box hover{
+	background-color:#8676c4;
+}
